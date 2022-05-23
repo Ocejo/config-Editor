@@ -1,0 +1,52 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    //EXTENSION MATERIAL ICON
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 17,
+    "editor.lineHeight": 38,
+    "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.letterSpacing": 0.2,
+    "editor.insertSpaces": true,
+    "editor.linkedEditing": true,
+    "editor.smoothScrolling": false,
+    "terminal.integrated.fontSize": 15,
+    "terminal.integrated.fontFamily": "monospace",
+    //EXTENSION THEME COPILOT
+    "workbench.colorTheme": "Copilot Theme",
+    "vscode-mysql.enableTelemetry": true,
+    "json.format.enable": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    //EXTENSION THEME PRETTIER
+    "prettier.vueIndentScriptAndStyle": true,
+    "php.validate.executablePath": "/Applications/MAMP/bin/php/php7.4.21/bin/php",
+    //EXTENSION THEME PHPFMT
+    "phpfmt.php_bin": "php",
+    "phpfmt.passes": [
+        "AlignPHPCode",
+        "AlignTypeHint",
+        "AddMissingParentheses",
+        "ConvertOpenTagWithEcho",
+        "DocBlockToComment",
+        "IndentTernaryConditions",
+        "JoinToImplode",
+        "PSR2KeywordsLowerCase",
+        "PSR2LnAfterNamespace",
+        "PSR2CurlyOpenNextLine",
+        "PSR2ModifierVisibilityStaticOrder",
+        "PSR2SingleEmptyLineAndStripClosingTag",
+        "ReindentSwitchBlocks",
+        "RemoveUseLeadingSlash",
+        "StripExtraCommaInArray",
+        "SpaceBetweenMethods",
+    ],
+    "phpfmt.exclude": [
+        "ReindentComments",
+        "StripNewlineWithinClassBody"
+    ],
+    "phpfmt.psr2": true,
+    "phpfmt.enable_auto_align": true,
+}
