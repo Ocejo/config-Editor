@@ -2,7 +2,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     //EXTENSION MATERIAL ICON
     "workbench.iconTheme": "material-icon-theme",
-    "editor.fontSize": 17,
+    "editor.fontSize": 15,
     "editor.lineHeight": 38,
     "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
     "editor.minimap.enabled": false,
@@ -14,16 +14,11 @@
     "terminal.integrated.fontSize": 15,
     "terminal.integrated.fontFamily": "monospace",
     //EXTENSION THEME COPILOT
-    "workbench.colorTheme": "Copilot Theme",
-    "vscode-mysql.enableTelemetry": true,
     "json.format.enable": true,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    //EXTENSION THEME PRETTIER
-    "prettier.vueIndentScriptAndStyle": true,
     "php.validate.executablePath": "/Applications/MAMP/bin/php/php7.4.21/bin/php",
-    //EXTENSION THEME PHPFMT
     "phpfmt.php_bin": "php",
     "phpfmt.passes": [
         "AlignPHPCode",
@@ -49,4 +44,30 @@
     ],
     "phpfmt.psr2": true,
     "phpfmt.enable_auto_align": true,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "redhat.telemetry.enabled": true,
+    "php-docblocker.functionTemplate": {
+        "message": {
+            "gapAfter": true
+        },
+        "param": {
+            "gapBefore": true
+        },
+        "author": {
+            "content": "@author ${###:Jorge Ocejo} <${###:ocejojimenezjorgeluis@gmail.com}>"
+        },
+        "return": {},
+        "extra": {}
+    },
+    "synthwave84.brightness": 0.10,
+    "synthwave84.disableGlow": false,
+    "[php]": {
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
+    // "terminal.external.osxExec": "/Applications/Terminal.app",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.cursorBlinking": "phase",
+    // "editor.guides.bracketPairs": true,
+    "breadcrumbs.enabled": false,
+    "editor.stickyScroll.enabled": true
 }
