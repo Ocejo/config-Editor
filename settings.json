@@ -11,9 +11,7 @@
     "editor.insertSpaces": true,
     "editor.linkedEditing": true,
     "editor.smoothScrolling": false,
-    "terminal.integrated.fontSize": 15,
-    "terminal.integrated.fontFamily": "monospace",
-    //EXTENSION THEME COPILOT
+    "terminal.integrated.fontFamily": "Space mono for Powerline,monospace",
     "json.format.enable": true,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -36,7 +34,7 @@
         "ReindentSwitchBlocks",
         "RemoveUseLeadingSlash",
         "StripExtraCommaInArray",
-        "SpaceBetweenMethods",
+        "SpaceBetweenMethods"
     ],
     "phpfmt.exclude": [
         "ReindentComments",
@@ -64,10 +62,10 @@
     "[php]": {
         "editor.defaultFormatter": "kokororin.vscode-phpfmt"
     },
-    // "terminal.external.osxExec": "/Applications/Terminal.app",
-    "terminal.integrated.defaultProfile.osx": "zsh",
     "editor.cursorBlinking": "phase",
-    // "editor.guides.bracketPairs": true,
     "breadcrumbs.enabled": false,
-    "editor.stickyScroll.enabled": true
+    "editor.stickyScroll.enabled": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontSize": 14,
+    "workbench.colorTheme": "One Dark Pro Darker"
 }
